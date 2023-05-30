@@ -49,9 +49,9 @@
           <div class="mx-auto text-center">
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block m-0 p-0">
-                <li><a href="<?=base_url()?>" class="nav-link text-primary">Home</a></li>
-                <li><a href="<?=base_url()?>tutorials" class="nav-link text-primary">Tutorials</a></li>
-                <li><a href="<?=base_url()?>contact" class="nav-link text-primary">Contact Us</a></li>
+                <li><a href="<?=base_url()?>home.html" class="nav-link text-primary">Home</a></li>
+                <li><a href="<?=base_url()?>tutorials.html" class="nav-link text-primary">Tutorials</a></li>
+                <li><a href="<?=base_url()?>contact.html" class="nav-link text-primary">Contact Us</a></li>
               </ul>
             </nav>
           </div>
