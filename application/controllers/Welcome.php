@@ -30,6 +30,7 @@ class Welcome extends CI_Controller {
 
 		if($is_signup){
 		$this->session->set_userdata('user', $u_data['u_name']);
+		$this->session->set_userdata('user_email', $u_data['u_email']);
 		}
 		
 	}
@@ -49,6 +50,7 @@ class Welcome extends CI_Controller {
 	public function logout()
 	{
 		$this->session->unset_userdata('user');
+		$this->session->unset_userdata('user_email');
 		redirect(base_url());
 	}
 	public function tutorials()

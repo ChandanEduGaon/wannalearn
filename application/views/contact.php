@@ -27,7 +27,7 @@
 
               <div class="form-group row">
                 <div class="col-md-12">
-                  <input type="email" class="form-control" placeholder="Email">
+                  <input type="email" class="form-control" value="<?=$this->session->userdata('user_email')?$this->session->userdata('user_email'):"example@gmail.com" ?>" placeholder="Email">
                 </div>
               </div>
               <div class="form-group row">
